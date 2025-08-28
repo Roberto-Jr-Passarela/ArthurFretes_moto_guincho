@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*CONFIGURAÇÕES PARA AS CORES DE CADA FONTE, TAMNHO, E TIPOLOGIGA*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+/* ---------- CORES GERAIS ---------- */
+:root {
+    --cor1 : #00529F;
+    --cor2 : #CE1126;
+    --cor3 : #CE1126;
+    --cor4 : #CE1126;
+    --cor5 : #CE1126;
+    --cor6 : #FFFFFF;
+    --cor7 : #FFFFFF;
+    --cor8 : #CE1126;
+    --corExtre : #0e2605;
+}
+/* ---------- CONFIGURAÇÕES GERAIS ---------- */
+* {
+  margin: 0px;           /* Remove margens padrão do navegador */
+  padding: 0px;         /* Remove preenchimento padrão do navegador */
+  scroll-behavior: smooth;
+  box-sizing: border-box; /* Faz com que padding e border não ultrapassem a largura dos elementos */
+}
+
+/*Padronizados*/
+h1 {
+  font-family: 'Cinzel', serif;
+  color: var(--cor6);
+}
+h2 {
+  font-family: 'Cinzel', serif;
+  color: var(--cor3);
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+  color: var(--cor3);
+}
+p {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  color: var(--cor1);
+}
+li {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  color: var(--cor3);
+}
+/*--------------------------------------------------*/
+
+/*Header*/
+nav > a, li > a {
+  color: var(--cor6);
+}
+li > a {
+  font-style: italic;
+}
+.logo {
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+/*--------------------------------------------------*/
+
+
+/*Div inicial */
+.slogan {
+  font-size: 4em;
+  color: var(--cor6);
+}
+/*--------------------------------------------------*/
+
+
+/*Footer*/
+small {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor8);
+}
+footer > address > p >  a {
+  font-style: italic;
+  color: var(--cor3);
+}
+/*--------------------------------------------------*/
+
+
+
+/*Rensposividade*/
+@media (max-width: 1080px) {
+  /* Div inicial */
+  .slogan {
+    font-size: 3em;
+  }
+
+}
+@media (max-width: 650px) {
+  /* Div inicial */
+  .slogan {
+    font-size: 1.5em;
+  }
+  footer > address > p {
+  font-size: 0.8em;
+  }
+}
