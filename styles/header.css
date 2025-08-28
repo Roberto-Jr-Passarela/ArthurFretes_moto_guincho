@@ -60,6 +60,9 @@ header {
 }
 
 /* Botões */
+#a-button-instagram-header, #a-button-telefone-header {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+} 
 #a-button-instagram-header {
   text-decoration: none;
   display: flex;
