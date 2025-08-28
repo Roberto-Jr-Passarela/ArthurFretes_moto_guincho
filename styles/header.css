@@ -2,101 +2,99 @@
 
 /* ---------- CORES GERAIS DA HEADER ---------- */
 :root {
-    --cor-laranja:#F97015;
-    --cor--Cinza-Brnaco: #65758b;
-    --cor-Cinca-claro: #FFFFFF1A;
-    --cor3-Cinza-escuro: #282c34;
-    --cor4-Branco-fosco: #FFFFFFCC;
-    --cor5-Branco-acinzentado: #FFFFFF99;
-    --cor-Azul: ;
-    --cor-Branco-Original: #FFFFFF
+  --cor-laranja: #F97015;
+  --cor--Cinza-Brnaco: #65758b;
+  --cor-Cinca-claro: #FFFFFF1A;
+  --cor3-Cinza-escuro: #282c34;
+  --cor4-Branco-fosco: #FFFFFFCC;
+  --cor5-Branco-acinzentado: #FFFFFF99;
+  --cor-Branco-Original: #FFFFFF;
 }
 
-
+/* ---------- HEADER FIXO ---------- */
 header {
-    position: fixed; /* Fixa o menu na tela */
-    height: 10vh;
-    width: 100%;
-    padding: 16px;
-    background-color: hsla(0, 0%, 98%, 0.99);
-} 
-#Alinhar-elementos-header-esquerdo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 48px;
-    /*background-color: gray;*/
+  position: fixed;       /* fixa no topo */
+  top: 0;                /* garante que fique colado no topo */
+  left: 0;
+  width: 100%;
+  padding: 12px 24px;    /* espaço interno */
+  background-color: hsla(0, 0%, 98%, 0.99);
+  display: flex;         /* flexbox geral */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;         /* fica por cima do resto */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* leve sombra */
 }
-#Alinhar-elementos-header-direito {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-}
-#logo-txt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background-color: rgb(162, 255, 0);*/
-    gap: 10px;
-}
-#logo {
-    height: 40px;
-    width: 40px;
-    border-radius: 10px;
-    background-image: linear-gradient(to top left, var(--cor-laranja), rgb(70, 70, 255));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--cor-Branco-Original);
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#txt {
-    display: flex;
-    flex-direction: column;
-    /*background-color: pink;*/
-}
-#Name-principla{
-    font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #282c34;
-    font-weight: bold;
-}
-#Name-complemento {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    color: #65758b;
-}
-#button-instagram {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    opacity: 100%;
-    padding: 4px 12px;
-    border-radius: 6px;
-    color: #282c34;
-    font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    border: none;
-    background-color: #ffffff;
 
+/* Containers */
+#Alinhar-elementos-header-esquerdo,
+#Alinhar-elementos-header-direito {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
+
+/* Logo + texto */
+#logo-txt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left, var(--cor-laranja), rgb(70, 70, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor-Branco-Original);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#txt {
+  display: flex;
+  flex-direction: column;
+}
+
+#Name-principal {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--cor3-Cinza-escuro);
+}
+
+#Name-complemento {
+  font-size: 14px;
+  color: var(--cor--Cinza-Brnaco);
+}
+
+/* Botões */
+#button-instagram {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: var(--cor3-Cinza-escuro);
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
 #button-telefone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: var(--cor-Branco-Original);
-    border-radius: 6px;
-    padding: 8px 16px;
-    border: none;
-    background-color: var(--cor-laranja)
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--cor-Branco-Original);
+  border-radius: 6px;
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--cor-laranja);
+  cursor: pointer;
 }

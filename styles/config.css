@@ -1,12 +1,21 @@
 @charset "UTF-8";
-/*CONFIGURAÇÕES PARA AS CORES DE CADA FONTE, TAMNHO, E TIPOLOGIGA*/
 
-
-
-/* ---------- CONFIGURAÇÕES GLOBAIS ---------- */
+/* ---------- RESET GLOBAL ---------- */
 * {
-  margin: 0px;           /* Remove margens padrão do navegador */
-  padding: 0px;         /* Remove preenchimento padrão do navegador */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   scroll-behavior: smooth;
-  box-sizing: border-box; /* Faz com que padding e border não ultrapassem a largura dos elementos */
+}
+
+/* ---------- CONFIGURAÇÕES PADRÃO ---------- */
+html {
+  font-size: 16px; /* facilita usar rem */
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff; /* fundo branco de base */
+  color: #282c34; /* cor de texto base */
+  line-height: 1.5;
 }
