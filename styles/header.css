@@ -60,7 +60,8 @@ header {
 }
 
 /* Botões */
-#button-instagram {
+#a-button-instagram-header {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -74,7 +75,8 @@ header {
   cursor: pointer;
 }
 
-#button-telefone {
+#a-button-telefone-header {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -87,3 +89,4 @@ header {
   background-color: var(--cor-laranja);
   cursor: pointer;
 }
+

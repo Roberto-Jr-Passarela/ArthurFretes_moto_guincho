@@ -1,6 +1,6 @@
 @import url(config.css);
 
 footer {
-    height: 5vw;
     text-align: center;
+    padding: 5px 0px 20px 0px;
 }
