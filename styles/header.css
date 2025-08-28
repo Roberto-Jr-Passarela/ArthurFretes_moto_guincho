@@ -89,4 +89,23 @@ header {
   background-color: var(--cor-laranja);
   cursor: pointer;
 }
+#span-01-header {
+  display: flex;
+}
 
+#span-02-header {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #a-button-instagram-header {
+    display: none;
+  }
+  #span-01-header {
+    display: none;
+  }
+
+  #span-02-header {
+    display: flex;
+  }
+}

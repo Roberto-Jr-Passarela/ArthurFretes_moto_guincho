@@ -67,17 +67,24 @@
 #button-servicos-pg1 {
     text-align: center;
     border: none;
-    padding: 10px 40px;
-    border-radius: 8px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
     font-size: 18px;
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
 }
 
 /* cores específicas */
 #button-telefone-pg1 {
     background-color: var(--cor-laranja);
     color: white;
+    gap: 10px;
+
 }
 
 #button-servicos-pg1 {
@@ -86,7 +93,8 @@
 }
 
 #img-01-pg1 {
-    height: 300px;
+    max-height: 300px;
+    max-width: 533px;
     border-radius: 30px;
 }
 
