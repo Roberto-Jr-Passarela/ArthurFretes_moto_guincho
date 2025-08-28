@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 48px;
     /*background-color: gray;*/
 }
 #Alinhar-elementos-header-direito {
