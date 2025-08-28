@@ -1,9 +1,7 @@
 @import url(config.css);
 @import url(pages/pg1.css);
 
-body {
-    background-color: #4065CF;
-}
+
 main { 
     background-color: rgb(77, 4, 67);  
     color: white;
