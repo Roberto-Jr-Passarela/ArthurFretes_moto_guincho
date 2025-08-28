@@ -1,11 +1,9 @@
 @import url(config.css);
+@import url(pages/pg1.css);
 
 body {
     background-color: greenyellow;
 }
 main { 
-    background-color: red;  
-}
-#pg1:first-of-type {
-  margin-top: 10vh;
+    background-color: rgb(193, 0, 0);  
 }

@@ -1,0 +1,26 @@
+@import url(../config.css);
+#pg1{
+    padding: 96px 16px 64px 16px;
+    background-color: #4065CF;
+    color: #FFFFFF;
+    width: 100%;
+}
+#h1-01-pg1 {
+    font-size: 36px;
+    
+}
+#span-01-pg1 {
+    color: var(--cor-laranja);
+}
+#p-01-pg1 {
+    
+}
+#div-01-pg1, #div-02-pg1, #div-03-pg1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+#svg-pg1{
+    color: var(--cor-laranja);
+}

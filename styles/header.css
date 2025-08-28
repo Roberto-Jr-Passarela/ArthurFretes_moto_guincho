@@ -1,16 +1,5 @@
 @import url(config.css);
 
-/* ---------- CORES GERAIS DA HEADER ---------- */
-:root {
-  --cor-laranja: #F97015;
-  --cor--Cinza-Brnaco: #65758b;
-  --cor-Cinca-claro: #FFFFFF1A;
-  --cor3-Cinza-escuro: #282c34;
-  --cor4-Branco-fosco: #FFFFFFCC;
-  --cor5-Branco-acinzentado: #FFFFFF99;
-  --cor-Branco-Original: #FFFFFF;
-}
-
 /* ---------- HEADER FIXO ---------- */
 header {
   position: fixed;       /* fixa no topo */
@@ -45,7 +34,7 @@ header {
   height: 40px;
   width: 40px;
   border-radius: 10px;
-  background-image: linear-gradient(to top left, var(--cor-laranja), rgb(70, 70, 255));
+  background-image: linear-gradient(to top left, var(--cor-laranja), var(--cor-Azul-principal));
   display: flex;
   justify-content: center;
   align-items: center;

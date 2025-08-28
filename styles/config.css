@@ -1,5 +1,15 @@
 @charset "UTF-8";
-
+/* ---------- CORES GERAIS DA HEADER ---------- */
+:root {
+  --cor-laranja: #F97015;
+  --cor--Cinza-Brnaco: #65758b;
+  --cor-Cinca-claro: #FFFFFF1A;
+  --cor3-Cinza-escuro: #282c34;
+  --cor4-Branco-fosco: #FFFFFFCC;
+  --cor5-Branco-acinzentado: #FFFFFF99;
+  --cor-Branco-Original: #FFFFFF;
+  --cor-Azul-principal: #4065CF;
+}
 /* ---------- RESET GLOBAL ---------- */
 * {
   margin: 0;
