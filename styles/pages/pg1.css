@@ -53,6 +53,7 @@
 #buttons-pg1 {
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -93,8 +94,10 @@
 }
 
 #img-01-pg1 {
-    max-height: 300px;
-    max-width: 533px;
+    max-width: 533px;  /* limite máximo */
+    width: 100%;       /* ocupa o espaço disponível até o limite */
+    height: auto;      /* mantém a proporção */
+    display: block;    /* evita espaçamento embaixo */
     border-radius: 30px;
 }
 

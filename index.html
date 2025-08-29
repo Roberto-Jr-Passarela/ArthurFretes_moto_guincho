@@ -11,7 +11,7 @@
 
     <header id="menu">
         <div id="logo-txt">
-            <div id="logo">A</div>
+            <div id="logo">A</div> <!--Podemos colocar 24h TAMBÉM-->
             <div id="txt">
                 <div id="Name-principal">Arthur Fretes</div>
                 <div id="Name-complemento">& Moto Resgate 24h</div>
@@ -60,49 +60,81 @@
         </div>
 
         <div id="pg2">
-            <h2>Nossos Serviços</h2>
-            <p>Oferecemos soluções completas de transporte e guincho com a confiança e experiência que você precisa para seus bens mais importantes.</p>
+            <h2 id="h2-pg2">Nossos Serviços</h2>
+            <p id="p-pg2">Oferecemos soluções completas de transporte e guincho com a confiança e experiência que você precisa para seus bens mais importantes.</p>
 
-            <h3>Fretes Diversos</h3>
-            <p>Transporte seguro de móveis, eletrodomésticos, materiais de construção e mercadorias em geral.</p>
-            <ul>
-                <li>Mudanças residenciais</li>
-                <li>Entrega de móveis</li>
-                <li>Transporte de materiais</li>
-                <li>Cargas em geral</li>
-            </ul>
-
-            <h3>Guincho para Motos</h3>
-            <p>Serviço especializado de guincho e transporte para motocicletas de todos os portes, incluindo motos esportivas.</p>
-            <ul>
-                <li>Motos esportivas (BMW S1000RR)</li>
-                <li>Transporte seguro</li>
-                <li>Equipamentos especializados</li>
-                <li>Atendimento 24h</li>
-            </ul>
-
-            <h3>Atendimento Rápido</h3>
-            <p>Disponibilidade para atendimentos de emergência e agendamentos conforme sua necessidade.</p>
-            <ul>
-                <li>Emergências 24h</li>
-                <li>Agendamento flexível</li>
-                <li>Pronta resposta</li>
-                <li>Cobertura regional</li>
-            </ul>
+            <div id="leyout-serviços">
+                <div class="leyout-serviços-template">
+                    <div class="alinha-alemento-pg2"><div class="circolo-pg2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package w-8 h-8" data-lov-id="src/components/Services.tsx:14:12" data-lov-name="Package" data-component-path="src/components/Services.tsx" data-component-line="14" data-component-file="Services.tsx" data-component-name="Package" data-component-content="%7B%22className%22%3A%22w-8%20h-8%22%7D"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"></path><path d="M12 22V12"></path><path d="m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7"></path><path d="m7.5 4.27 9 5.15"></path></svg></div></div>
+                    <div class="leyout-serviços-template-txt">
+                        <h3 class="h3-pg2">Fretes Diversos</h3>
+                        <p>Transporte seguro de móveis, eletrodomésticos, materiais de construção e mercadorias em geral.</p>
+                    </div>
+                    <ul class="ul-pg2">
+                        <li class="li-pg2">Mudanças residenciais</li>
+                        <li class="li-pg2">Entrega de móveis</li>
+                        <li class="li-pg2">Transporte de materiais</li>
+                        <li class="li-pg2">Cargas em geral</li>
+                    </ul>
+                </div>
+                <div class="leyout-serviços-template">
+                    <div class="alinha-alemento-pg2"><div class="circolo-pg2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench w-8 h-8" data-lov-id="src/components/Services.tsx:20:12" data-lov-name="Wrench" data-component-path="src/components/Services.tsx" data-component-line="20" data-component-file="Services.tsx" data-component-name="Wrench" data-component-content="%7B%22className%22%3A%22w-8%20h-8%22%7D"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></div></div>
+                    <div class="leyout-serviços-template-txt">
+                        <h3 class="h3-pg2">Guincho para Motos</h3>
+                        <p>Serviço especializado de guincho e transporte para motocicletas de todos os portes, incluindo motos esportivas.</p>
+                    </div>
+                    <ul class="ul-pg2">
+                        <li class="li-pg2">Motos esportivas (BMW S1000RR)</li>
+                        <li class="li-pg2">Transporte seguro</li>
+                        <li class="li-pg2">Equipamentos especializados</li>
+                        <li class="li-pg2">Atendimento 24h</li>
+                    </ul>
+                </div>
+                <div class="leyout-serviços-template">
+                    <div class="alinha-alemento-pg2"><div class="circolo-pg2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-8 h-8" data-lov-id="src/components/Services.tsx:26:12" data-lov-name="Clock" data-component-path="src/components/Services.tsx" data-component-line="26" data-component-file="Services.tsx" data-component-name="Clock" data-component-content="%7B%22className%22%3A%22w-8%20h-8%22%7D"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div></div>
+                    <div class="leyout-serviços-template-txt">
+                        <h3 class="h3-pg2">Atendimento Rápido</h3>
+                        <p>Disponibilidade para atendimentos de emergência e agendamentos conforme sua necessidade.</p>
+                    </div>
+                    <ul class="ul-pg2">
+                        <li class="li-pg2">Emergências 24h</li>
+                        <li class="li-pg2">Agendamento flexível</li>
+                        <li class="li-pg2">Pronta resposta</li>
+                        <li class="li-pg2">Cobertura regional</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div id="pg3">
-            <h3>Equipamentos e Veículo Próprio</h3> 
-            <p>Contamos com uma <strong>Hyundai HR</strong> equipada para diversos tipos de transporte e guincho especializado para motocicletas. Nossos equipamentos são mantidos em perfeita condição para garantir a segurança do seu bem.</p>
-            <ul>
-                <li>Hyundai HR em excelente estado</li>
-                <li>Equipamentos de guincho especializados</li>
-                <li>Materiais de proteção e amarração</li>
-            </ul>
-            <button>Solicitar Orçamento</button>
-            <img src="" alt="Caminhão HR">
-            <img src="" alt="Caixotes transportados">
-            <img src="" alt="Velocidade">
+            <section id="section-pg3">
+                <h3 id="h3-01-pg3">Equipamentos e Veículo Próprio</h3>
+                <p id="p-01-pg3">Contamos com uma <strong>Hyundai HR</strong> equipada para diversos tipos de transporte e guincho especializado para motocicletas. Nossos equipamentos são mantidos em perfeita condição para garantir a segurança do seu bem.</p>
+                <ul id="ul-01-pg3">
+                    <li>
+                        <svg class="svg-pg3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck w-5 h-5 text-logistics-blue mr-3" data-lov-id="src/components/Services.tsx:84:16" data-lov-name="Truck" data-component-path="src/components/Services.tsx" data-component-line="84" data-component-file="Services.tsx" data-component-name="Truck" data-component-content="%7B%22className%22%3A%22w-5%20h-5%20text-logistics-blue%20mr-3%22%7D"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                        Hyundai HR em excelente estado
+                    </li>
+
+                    <li>
+                        <svg class="svg-pg3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench w-5 h-5 text-logistics-blue mr-3" data-lov-id="src/components/Services.tsx:88:16" data-lov-name="Wrench" data-component-path="src/components/Services.tsx" data-component-line="88" data-component-file="Services.tsx" data-component-name="Wrench" data-component-content="%7B%22className%22%3A%22w-5%20h-5%20text-logistics-blue%20mr-3%22%7D"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        Equipamentos de guincho especializados
+                    </li>
+
+                    <li>
+                        <svg class="svg-pg3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package w-5 h-5 text-logistics-blue mr-3" data-lov-id="src/components/Services.tsx:92:16" data-lov-name="Package" data-component-path="src/components/Services.tsx" data-component-line="92" data-component-file="Services.tsx" data-component-name="Package" data-component-content="%7B%22className%22%3A%22w-5%20h-5%20text-logistics-blue%20mr-3%22%7D"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"></path><path d="M12 22V12"></path><path d="m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7"></path><path d="m7.5 4.27 9 5.15"></path></svg>
+                        Materiais de proteção e amarração
+                    </li>
+                </ul>
+                <button id="button-pg3">Solicitar Orçamento</button>
+            </section>
+            <div id="div-posicion-imgs-pg3">
+                <img src="" alt="Caminhão HR">
+                <div id="div-posicion-imgs-02-pg3">
+                    <img src="" alt="Caixotes transportados">
+                    <img src="" alt="Velocidade">
+                </div>
+            </div>
         </div>
 
         <div id="pg4">
