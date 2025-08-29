@@ -1,1 +1,28 @@
 @import url(../config.css);
+
+#pg4 {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1980px;
+    padding: 16px;
+}
+#lado-esquerdo-pg4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 650px;
+}
+#lado-direito-pg4 {
+    /**/
+}
+#h2-01-pg4 {
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+}
+#h2-01-pg4 > span {
+    color: var(--cor-laranja);
+}
