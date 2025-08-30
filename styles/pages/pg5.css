@@ -53,6 +53,7 @@
     background-color: blue;
     color: #ffffff;
     font-size: 14px;
+    font-weight: bold;
 }
 #div-button-wattsapp-pg5 {
     background-color: var(--cor-laranja);
@@ -76,7 +77,12 @@
     color: white;
 }
 #div-02-pg5 {
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .h3-div-02-pg5 {
     font-size: 24px;
@@ -90,15 +96,47 @@
 }
 #div-03-pg5 {
     width: 100%;
-    background-color: red;
+    min-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }
 .div-templeat-02-pg5 {
-
+    padding: 15px;
+    background-color: hsla(0, 0%, 100%, 0.10);
+    border-radius: 10px;
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    width: 44%;
+    margin-bottom: 10px;
 }
 #div-dois-elementos-pg5 {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
-
+#div-solicitacion-pg5 {
+    text-align: center;
+    padding: 32px;
+}
+#button-watts-02-pg5 {
+    background-color: var(--cor-laranja);
+    padding: 22px 32px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+@media (max-width: 1000px) {
+    .div-templeat-02-pg5 {
+        width: 90%;
+    }
+}
 @media (max-width: 870px) {
     #div-buttons-pg5 {
         flex-direction: column;
