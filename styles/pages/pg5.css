@@ -101,7 +101,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2%;
+    gap: 14px;
 }
 .div-templeat-02-pg5 {
     padding: 15px;
@@ -123,6 +123,11 @@
     padding: 32px;
 }
 #button-watts-02-pg5 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     background-color: var(--cor-laranja);
     padding: 22px 32px;
     margin-top: 24px;
@@ -131,6 +136,7 @@
     color: white;
     font-weight: bolder;
     font-size: 18px;
+    width: 80%;
 }
 @media (max-width: 1000px) {
     .div-templeat-02-pg5 {

@@ -4,6 +4,7 @@
 @import url(pages/pg3.css);
 @import url(pages/pg4.css);
 @import url(pages/pg5.css);
+@import url(pages/pg6.css);
 ul {
   list-style-position: inside; /* faz a bolinha ficar dentro do <li> */
 }
