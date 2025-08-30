@@ -36,4 +36,7 @@
     #pg6 {
         flex-direction: column;
     }
+    .div-templeat-pg6 {
+        width: 80%;
+    }
 }
