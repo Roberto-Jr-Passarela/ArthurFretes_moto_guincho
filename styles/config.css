@@ -32,3 +32,13 @@ body {
 ul {
   list-style-position: inside; /* faz a bolinha ficar dentro do <li> */
 }
+/*
+.division {
+  background-color: green; 
+  width: 100%;
+  height: 60px;
+}
+.class-div-1400px-alinhamento {
+  width: 1400px;
+  margin: auto;
+}*/

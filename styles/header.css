@@ -1,18 +1,18 @@
 @import url(config.css);
 
 /* ---------- HEADER FIXO ---------- */
-header {
+#menu {
   position: fixed;       /* fixa no topo */
   top: 0;                /* garante que fique colado no topo */
   left: 0;
   width: 100%;
   padding: 12px 24px;    /* espaço interno */
-  background-color: hsla(0, 0%, 98%, 0.99);
+  background-color: hsla(0, 0%, 100%, 0.98);
   display: flex;         /* flexbox geral */
   justify-content: space-between;
   align-items: center;
   z-index: 1000;         /* fica por cima do resto */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* leve sombra */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.202); /* leve sombra */
 }
 
 /* Containers */
