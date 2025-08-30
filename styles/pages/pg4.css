@@ -41,7 +41,6 @@
 }
 #lado-direito-pg4 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -69,4 +68,15 @@
 }
 .p-03-pg4 {
     font-size: 12px;
+}
+#div-comentario-pg4 {
+    background-color: rgb(246, 246, 246);
+    padding: 24px;
+    border-radius: 15px;
+    border-left: 5px solid var(--cor-laranja);
+    font-size: 12px;
+}
+
+#p-name-pg4{
+    color: #65758b;
 }
