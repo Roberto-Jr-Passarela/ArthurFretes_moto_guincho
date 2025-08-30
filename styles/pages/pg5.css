@@ -1,6 +1,7 @@
 @import url(../config.css);
 
 #pg5 {
+    margin: auto;
     background-color: var(#282c34);
     color: #FFFFFFFF;
     display: flex;
@@ -9,14 +10,16 @@
     align-items: center;
     gap: 10px;
     padding: 16px;
+    max-width: 1400px;
 }
 #div-buttons-pg5 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    width: 100%;
+    margin-bottom: 65px;
+    color: #282c34;
 }
 
 #div-01-pg5 {
@@ -29,16 +32,79 @@
     font-size: 20px;
 }
 .div-templeat-pg5 {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
     padding: 24px;
     border-radius: 10px;
+    width: 32%;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.375);
 }
-#div-buttons-pg5 {
-    max-width: 1310px;
-    margin-bottom: 65px;
-}
+
 .button-pg5 {
+    border: none;
     width: 100%;
-    padding: 8px 16px;
+    padding: 12px 16px;
     margin-top: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #ffffff;
+    font-size: 14px;
+}
+#div-button-wattsapp-pg5 {
+    background-color: var(--cor-laranja);
+    color: white;
+}
+#button-watts-pg5 {
+    background-color: white;
+    color: var(--cor-laranja);
+}
+.circulo-pg5 {
+    background-color: rgba(153, 140, 255, 0.428);
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 50px;
+}
+#circulo-pg5-laranja {
+    background-color: rgba(175, 175, 175, 0.428);
+    color: white;
+}
+#div-02-pg5 {
+
+}
+.h3-div-02-pg5 {
+    font-size: 24px;
+    color:var(--cor-laranja);
+}
+.div-h3-icone-pg5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--cor-laranja);
+}
+#div-03-pg5 {
+    width: 100%;
+    background-color: red;
+}
+.div-templeat-02-pg5 {
+
+}
+#div-dois-elementos-pg5 {
+
+}
+
+@media (max-width: 870px) {
+    #div-buttons-pg5 {
+        flex-direction: column;
+        gap: 20px;
+    }  
+    .div-templeat-pg5 {
+        width: 90%;
+    }
 }
