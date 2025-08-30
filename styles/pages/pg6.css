@@ -3,12 +3,13 @@
 #pg6 {
     max-width: 1400px;
     margin: auto;
-    padding: 0px 16px 30px 16px;
+    padding: 0 16px 30px 16px;
     display: flex;
     justify-content: center;
     gap: 20px;
-    border-bottom: 1px solid #ffffffcc ;
+    border-bottom: 1px solid #ffffffcc;
 }
+
 .div-templeat-pg6 {
     width: 30%;
     display: flex;
@@ -16,23 +17,30 @@
     color: #ffffffcc;
     padding: 10px;
 }
+
 #Name-principal-02 {
     color: white;
 }
-#links-pg6 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0px;
-}
+
+/* 🔥 Agrupando flex-column com gap */
+#links-pg6,
 #links-pg6 > a {
     display: flex;
-    align-items: center;
     gap: 10px;
+}
+
+#links-pg6 {
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+#links-pg6 > a {
+    align-items: center;
     text-decoration: none;
     color: #ffffffcc;
 }
-@media (max-width: 900px){
+
+@media (max-width: 900px) {
     #pg6 {
         flex-direction: column;
     }

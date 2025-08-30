@@ -9,25 +9,31 @@
     align-items: center;
     gap: 60px;
 }
+
 #h3-01-pg3 {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 #p-01-pg3 {
     margin-bottom: 20px;
 }
+
 #ul-01-pg3 {
     list-style: none;   /* remove as bolinhas */
 }
+
 #ul-01-pg3 > li {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 15px;
 }
+
 #section-pg3 {
     max-width: 600px;
 }
+
 #button-pg3 {
     text-align: center;
     border: none;
@@ -44,20 +50,27 @@
     background-color: var(--cor-laranja);
     color: #FFFFFFFF;
     margin-top: 25px;
-
 }
+
+/* 🔥 Agrupei flex-center repetidos */
+#button-pg3,
 #div-posicion-imgs-pg3 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#div-posicion-imgs-pg3 {
+    flex-direction: column;
     gap: 20px;
     background-color: red;
 }
+
 #div-posicion-imgs-02-pg3 {
     display: flex;
     gap: 20px;
 }
+
 .svg-pg3 {
     color: blue;
 }

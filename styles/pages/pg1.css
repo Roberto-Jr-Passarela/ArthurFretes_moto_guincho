@@ -12,13 +12,14 @@
     align-items: center;
     gap: 80px;
 }
+
 #lado-esquerdo-pg1 {
     max-width: 500px;
 }
 
 #h1-01-pg1 {
     font-size: 36px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 #span-01-pg1 {
@@ -29,16 +30,16 @@
     margin-bottom: 20px;
 }
 
+/* Section com ícones */
 #section-01-pg1 {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
-
-/* ícones e divisões */
+/* Cada item da section */
 #div-01-pg1, #div-02-pg1, #div-03-pg1 {
     display: flex;
     align-items: center;
@@ -49,43 +50,44 @@
     color: var(--cor-laranja);
 }
 
-/* botões */
+/* Botões container */
 #buttons-pg1 {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .a-pg1 {
     text-decoration: none;
 }
 
-/* estilos comuns de botão */
+/* Estilos comuns dos botões */
 #button-telefone-pg1,
 #button-servicos-pg1 {
-    text-align: center;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid white;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+    cursor: pointer;
 }
 
-/* cores específicas */
+/* Diferenças entre os botões */
 #button-telefone-pg1 {
     background-color: var(--cor-laranja);
     color: white;
-    gap: 10px;
-
 }
 
 #button-servicos-pg1 {
@@ -93,11 +95,11 @@
     color: #4065CF;
 }
 
+/* Imagem */
 #img-01-pg1 {
-    max-width: 533px;  /* limite máximo */
-    width: 100%;       /* ocupa o espaço disponível até o limite */
-    height: auto;      /* mantém a proporção */
-    display: block;    /* evita espaçamento embaixo */
+    max-width: 533px;
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 30px;
 }
-

@@ -4,6 +4,7 @@ footer {
     padding: 5px 30px 20px 30px;
     color: #FFFFFFCC;
 }
+
 footer > address {
     max-width: 1400px;
     margin: auto;
@@ -11,25 +12,29 @@ footer > address {
     justify-content: space-between;
     align-items: center;
 }
+
 address > small {
     background-color: red;
 }
-.link-footer {
-    background-color: hsla(0, 0%, 100%, 0.101);
+
+/* 🔥 Agrupando flex-center repetidos */
+.link-footer,
+#div-01-footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.link-footer {
+    background-color: hsla(0, 0%, 100%, 0.101);
     padding: 10px;
     border-radius: 100px;
     color: #FFFFFFCC;
 }
-#div-01-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#div-01-footer {
     gap: 20px;
 }
-
 
 @media (max-width: 730px) {
     footer > address {
