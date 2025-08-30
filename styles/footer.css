@@ -14,7 +14,7 @@ footer > address {
 }
 
 address > small {
-    background-color: red;
+    /*background-color: red;*/
 }
 
 /* 🔥 Agrupando flex-center repetidos */
