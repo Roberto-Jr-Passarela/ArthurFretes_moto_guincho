@@ -1,8 +1,9 @@
 @import url(../config.css);
 
 #pg4 {
-    background-color: gray;
+    background-color: #FFFFFFFF;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -20,9 +21,52 @@
 }
 #h2-01-pg4 {
     font-size: 48px;
-    display: flex;
-    flex-direction: column;
+    line-height: 1.2;      /* reduz o espaçamento entre linhas */
 }
 #h2-01-pg4 > span {
     color: var(--cor-laranja);
+}
+
+.section-templeat-pg3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 314px;
+    background-color: #FFFFFFFF;
+    padding: 24px;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+#lado-direito-pg4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#lado-direito-pg4 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-01-pg4 {
+    background-color: rgb(191, 191, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 50px;
+    color: blue;
+}
+.p-01-pg4 {
+    font-size: 30px;
+}
+.p-02-pg4 {
+    font-size: 14px;
+}
+.p-03-pg4 {
+    font-size: 12px;
 }
