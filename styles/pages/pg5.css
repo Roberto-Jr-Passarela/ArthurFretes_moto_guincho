@@ -1,0 +1,23 @@
+@import url(../config.css);
+
+#pg5 {
+    background-color: var(#282c34);
+    color: #FFFFFFFF;
+}
+
+#div-01-pg5 {
+    text-align: center;
+}
+#div-01-pg5 > h2 {
+    font-size: 48px;
+}
+#div-01-pg5 > p {
+    font-size: 20px;
+}
+.div-templeat-pg5 {
+    
+}
+#div-buttons-pg5 {
+    max-width: 1368px;
+    margin-bottom: 65px;
+}
