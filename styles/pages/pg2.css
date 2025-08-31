@@ -1,35 +1,20 @@
 @import url(../config.css);
 
 #pg2 {
+    background-color: #FFFFFF;
+}
+#alinhamento-1400px-conteudo-pg2 {
+    max-width: 1400px;
+    margin: auto;
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
-    background-color: #ffffff;
+
     padding: 30px 16px;
-}
-
-#leyout-serviços {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.leyout-serviços-template {
-    max-width: 400px;
-    background-color: hsl(0, 0%, 99%);
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.167);
-}
-
-.leyout-serviços-template-txt {
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 #h2-pg2 {
@@ -42,7 +27,47 @@
     text-align: center;
 }
 
-.h3-pg2 {
+#leyout-serviços {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#leyout-serviços > div {
+    max-width: 400px;
+    background-color: hsl(0, 0%, 99%);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.167);
+}
+
+/* 🔥 Agrupei flex-center repetidos */
+.alinha-svgs-pg2,
+.circolo-das-svgs-pg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinha-svgs-pg2 {
+    margin-bottom: 20px;
+}
+
+.circolo-das-svgs-pg2 {
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 100px;
+    color: blue;
+}
+
+.leyout-serviços-template-txt {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.leyout-serviços-template-txt > h3 {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -52,25 +77,6 @@
     margin-left: 5px;
 }
 
-.li-pg2::marker {
-    color: var(--cor-laranja); /* cor da bolinha */
-}
-
-/* 🔥 Agrupei flex-center repetidos */
-.alinha-alemento-pg2,
-.circolo-pg2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alinha-alemento-pg2 {
-    margin-bottom: 20px;
-}
-
-.circolo-pg2 {
-    padding: 10px;
-    background-color: rgb(204, 204, 204);
-    border-radius: 100px;
-    color: blue;
+.ul-pg2 > li::marker {
+    color: var(--cor-laranja);
 }

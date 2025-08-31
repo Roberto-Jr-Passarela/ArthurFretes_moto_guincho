@@ -1,13 +1,19 @@
 @import url(../config.css);
 
 #pg4 {
-  background: #fff;
+  background-color: white;
+}
+
+#alinhamento-1400px-conteudo-pg4 {
+  max-width: 1400px;
+  margin: auto;
+
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  max-width: 1980px;
   padding: 16px;
 }
 
@@ -18,21 +24,6 @@
   max-width: 650px;
 }
 
-/* 🔥 Agrupando flex-center */
-.div-01-pg4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-#lado-direito-pg4 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
-  grid-template-rows: repeat(2, 1fr);    /* 2 linhas iguais */
-  gap: 20px;
-}
-
 #h2-01-pg4 {
   font-size: 48px;
   line-height: 1.2;
@@ -41,30 +32,6 @@
 #h2-01-pg4 > span {
   color: var(--cor-laranja);
 }
-
-.section-templeat-pg3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 314px;
-  background: #fff;
-  padding: 24px;
-  text-align: center;
-  gap: 10px;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-.div-01-pg4 {
-  background: rgb(191, 191, 191);
-  padding: 25px;
-  border-radius: 50px;
-  color: blue;
-}
-
-.p-01-pg4 { font-size: 30px; }
-.p-02-pg4 { font-size: 14px; }
-.p-03-pg4 { font-size: 12px; }
 
 #div-comentario-pg4 {
   background: rgb(246, 246, 246);
@@ -77,3 +44,42 @@
 #p-name-pg4 {
   color: #65758b;
 }
+
+#lado-direito-pg4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+  grid-template-rows: repeat(2, 1fr);    /* 2 linhas iguais */
+  gap: 20px;
+}
+
+#lado-direito-pg4 > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 314px;
+  background: #fff;
+  padding: 24px;
+  text-align: center;
+  gap: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔥 Agrupando flex-center */
+.div-01-pg4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.div-01-pg4 {
+  background: rgb(191, 191, 191);
+  padding: 25px;
+  border-radius: 50px;
+  color: blue;
+}
+
+.p-01-pg4 { font-size: 30px; }
+.p-02-pg4 { font-size: 14px; }
+.p-03-pg4 { font-size: 12px; }

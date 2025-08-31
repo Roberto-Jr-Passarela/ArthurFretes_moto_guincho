@@ -2,12 +2,21 @@
 
 #pg3 {
     background-color: #FFFFFFFF;
+}
+#alinhamento-1400px-conteudo-pg3 {
+    max-width: 1400px;
+    margin: auto;
+
     padding: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 60px;
+}
+
+#section-pg3 {
+    max-width: 600px;
 }
 
 #h3-01-pg3 {
@@ -30,8 +39,16 @@
     margin: 15px;
 }
 
-#section-pg3 {
-    max-width: 600px;
+.svg-pg3 {
+    color: blue;
+}
+
+/* 🔥 Agrupei flex-center repetidos */
+#button-pg3,
+#div-posicion-imgs-pg3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #button-pg3 {
@@ -52,14 +69,6 @@
     margin-top: 25px;
 }
 
-/* 🔥 Agrupei flex-center repetidos */
-#button-pg3,
-#div-posicion-imgs-pg3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #div-posicion-imgs-pg3 {
     flex-direction: column;
     gap: 20px;
@@ -71,6 +80,4 @@
     gap: 20px;
 }
 
-.svg-pg3 {
-    color: blue;
-}
+
