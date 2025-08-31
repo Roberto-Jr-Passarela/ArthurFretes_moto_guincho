@@ -19,6 +19,7 @@
 
 #h2-pg2 {
     font-size: 48px;
+    text-align: center;
 }
 
 #p-pg2 {
@@ -79,4 +80,11 @@
 
 .ul-pg2 > li::marker {
     color: var(--cor-laranja);
+}
+
+@media (max-width: 480px) {
+    #h2-pg2 {
+        font-size: 38px;
+        text-align: center;
+    }
 }

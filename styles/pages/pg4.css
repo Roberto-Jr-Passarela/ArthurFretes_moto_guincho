@@ -43,6 +43,7 @@
 
 #p-name-pg4 {
   color: #65758b;
+  margin-top: 10px;
 }
 
 #lado-direito-pg4 {
@@ -83,3 +84,17 @@
 .p-01-pg4 { font-size: 30px; }
 .p-02-pg4 { font-size: 14px; }
 .p-03-pg4 { font-size: 12px; }
+
+
+@media (max-width: 480px) {
+  #h2-01-pg4 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 400px) {
+  #h2-01-pg4 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}

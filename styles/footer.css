@@ -1,20 +1,19 @@
 @import url(config.css);
 
 footer {
-    padding: 5px 30px 20px 30px;
     color: #FFFFFFCC;
 }
-
-footer > address {
+#alinhamento-1400px-conteudo-pg5 {
     max-width: 1400px;
     margin: auto;
+    padding: 5px 30px 20px 30px;
+}
+
+#alinhamento-1400px-conteudo-pg5 > address {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-address > small {
-    /*background-color: red;*/
 }
 
 /* 🔥 Agrupando flex-center repetidos */
@@ -37,11 +36,11 @@ address > small {
 }
 
 @media (max-width: 730px) {
-    footer > address {
+    #alinhamento-1400px-conteudo-pg5  > address {
         flex-direction: column;
         justify-content: center;
     }
     address > small {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 }
