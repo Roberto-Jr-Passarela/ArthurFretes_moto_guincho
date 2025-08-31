@@ -19,7 +19,6 @@
 }
 
 /* 🔥 Agrupando flex-center */
-#lado-direito-pg4,
 .div-01-pg4 {
   display: flex;
   justify-content: center;
@@ -27,10 +26,11 @@
   gap: 10px;
 }
 
-#lado-direito-pg4 > div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+#lado-direito-pg4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+  grid-template-rows: repeat(2, 1fr);    /* 2 linhas iguais */
+  gap: 20px;
 }
 
 #h2-01-pg4 {
