@@ -47,8 +47,10 @@
   background-color: #fff;
   padding: 24px;
   border-radius: 10px;
-  width: 32%;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.375);
+}
+.div-templeats-pg5 > a {
+  width: 100%;
 }
 
 
