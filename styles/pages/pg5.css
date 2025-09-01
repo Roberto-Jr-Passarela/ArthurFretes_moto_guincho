@@ -46,6 +46,7 @@
   gap: 10px;
   background-color: #fff;
   padding: 24px;
+  width: 32%;
   border-radius: 10px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.375);
 }
