@@ -13,13 +13,16 @@
 /* ---------- PG1 ---------- */
 #pg1 {
     background-color: #4065CF;
+    min-height: calc(100vh + 87px);
+    padding: 96px 16px 64px 16px;
+    display: flex;
+    align-items: center;
 }
 #alinhamento-1400px-conteudo-pg1{
     /*Alinhamento maior que 1400px*/
     max-width: 1400px;
     margin: auto;
     
-    padding: 96px 16px 64px 16px;
     color: #FFFFFF;
 
     display: flex;
