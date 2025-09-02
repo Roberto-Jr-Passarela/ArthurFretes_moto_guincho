@@ -43,3 +43,26 @@ ul {
   padding-bottom: 50px;
 }
 
+
+/*TENTATIVAR DE FAZER OS BUTONS*/
+.button-pg5, #button-watts-02-pg5, #button-telefone-pg1,
+#button-servicos-pg1,#button-pg3,#a-button-instagram-header, #a-button-telefone-header {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button-pg5:hover, #button-watts-02-pg5:hover, #button-telefone-pg1:hover,
+  #button-servicos-pg1:hover,#button-pg3:hover, #a-button-instagram-header:hover, #a-button-telefone-header:hover  {
+    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  }
+}
+
+/* Efeito mobile - touch/click */
+@media (hover: none) and (pointer: coarse) {
+  .button-pg5:active, #button-watts-02-pg5:active, #button-telefone-pg1:active,
+  #button-servicos-pg1:active,#button-pg3:active, #a-button-instagram-header:active, #a-button-telefone-header:active {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  }
+}

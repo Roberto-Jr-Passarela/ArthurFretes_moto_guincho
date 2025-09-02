@@ -3,13 +3,13 @@
 footer {
     color: #FFFFFFCC;
 }
-#alinhamento-1400px-conteudo-pg5 {
+#alinhamento-1400px-conteudo-footer {
     max-width: 1400px;
     margin: auto;
     padding: 5px 30px 20px 30px;
 }
 
-#alinhamento-1400px-conteudo-pg5 > address {
+#alinhamento-1400px-conteudo-footer > address {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -30,13 +30,17 @@ footer {
     border-radius: 100px;
     color: #FFFFFFCC;
 }
+.link-footer:hover {
+    color: #F97015;
+}
 
 #div-01-footer {
     gap: 20px;
 }
 
 @media (max-width: 730px) {
-    #alinhamento-1400px-conteudo-pg5  > address {
+    #alinhamento-1400px-conteudo-footer  > address {
+        text-align: center;
         flex-direction: column;
         justify-content: center;
     }

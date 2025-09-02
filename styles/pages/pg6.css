@@ -39,6 +39,10 @@
     text-decoration: none;
     color: #ffffffcc;
 }
+#links-pg6 > a:hover {
+    color: #F97015;
+}
+
 
 @media (max-width: 900px) {
     #pg6 {
