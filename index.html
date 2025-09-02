@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arthur Frestes & Moto Resgate 24h</title>
     <link rel="shortcut icon" href="img/logo-aba/svgviewer-png-output.png" type="image/x-icon">
-    <link rel="stylesheet" href="otimizado-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -309,21 +309,19 @@
     </footer>
 
     <script>
-        // Quando a página carregar
+        // Sempre que a página carregar ou recarregar
         window.addEventListener('load', () => {
-            // Remove qualquer hash da URL (volta para a index padrão)
-            if (window.location.hash) {
-                history.replaceState(null, '', window.location.pathname);
-            }
+            // Remove hash da URL
+            history.replaceState(null, '', window.location.pathname);
 
-            // Faz o scroll suave até o topo
+            // Sobe a página suavemente até o topo
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
         });
     </script>
-    
+
 </body>
 
 </html>
