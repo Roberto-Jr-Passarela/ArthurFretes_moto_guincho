@@ -309,9 +309,19 @@
     </footer>
 
     <script>
-        if (window.location.hash) {
-            window.location.href = window.location.origin + window.location.pathname;
-        }
+        // Quando a página carregar
+        window.addEventListener('load', () => {
+            // Remove qualquer hash da URL (volta para a index padrão)
+            if (window.location.hash) {
+                history.replaceState(null, '', window.location.pathname);
+            }
+
+            // Faz o scroll suave até o topo
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     </script>
     
 </body>
