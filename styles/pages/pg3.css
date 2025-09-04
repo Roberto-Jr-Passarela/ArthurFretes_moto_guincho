@@ -73,9 +73,13 @@
     flex-direction: column;
     gap: 10px;
     /*background-color: rgba(108, 108, 108, 0.627);*/
+    
 }
 #leyout-imgs-pg3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 #leyout-imgs-pg3 > img {
