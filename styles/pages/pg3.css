@@ -76,6 +76,7 @@
 }
 #div-posicion-imgs-pg3 > img {
     height: 250px;
+    padding: 16px;
 }
 
 #div-posicion-imgs-02-pg3 {
@@ -84,7 +85,7 @@
 
 }
 #div-posicion-imgs-02-pg3 > img {
-    height: 200px;
+    /*height: 200px;*/
 }
 
 
