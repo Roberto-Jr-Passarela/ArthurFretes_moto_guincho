@@ -72,12 +72,19 @@
 #div-posicion-imgs-pg3 {
     flex-direction: column;
     gap: 20px;
-    background-color: red;
+    background-color: rgba(108, 108, 108, 0.627);
+}
+#div-posicion-imgs-pg3 > img {
+    height: 250px;
 }
 
 #div-posicion-imgs-02-pg3 {
     display: flex;
     gap: 20px;
+
+}
+#div-posicion-imgs-02-pg3 > img {
+    height: 200px;
 }
 
 
