@@ -4,7 +4,7 @@
 #pg1 {
     background-color: #4065CF;
     min-height: calc(100vh + 87px);
-    padding: 96px 16px 0px 16px;
+    padding: 96px 16px 50px 16px;
     display: flex;
     align-items: center;
 }
