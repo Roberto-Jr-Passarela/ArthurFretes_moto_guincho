@@ -1,0 +1,9 @@
+@import url(../config.css);
+
+
+#div-posicion-imgs-pg3 {
+    height: 400px;
+    width: 650px;
+    background-color: red;
+    border-radius: 50px;
+}

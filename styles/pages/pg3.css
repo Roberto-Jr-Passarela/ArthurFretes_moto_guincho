@@ -1,5 +1,5 @@
 @import url(../config.css);
-
+@import url(carrosel-pg3.css);
 #pg3 {
     background-color: #FFFF;
 }
@@ -69,11 +69,10 @@
     margin-top: 25px;
 }
 
+/*
 #div-posicion-imgs-pg3 {
     flex-direction: column;
-    gap: 10px;
-    /*background-color: rgba(108, 108, 108, 0.627);*/
-    
+    gap: 10px;  
 }
 #leyout-imgs-pg3 {
     display: flex;
@@ -108,6 +107,7 @@
     border-radius: 20px;
     border: 3px solid rgb(0, 0, 0);
 }
+*/
 
 @media (max-width: 575px) {
     
