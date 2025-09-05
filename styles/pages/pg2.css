@@ -90,6 +90,14 @@
     color: var(--cor-laranja);
 }
 
+#div-templeat-folder-pg2 > .leyout-serviços-template-txt{
+    margin-bottom: 0px;
+}
+#div-templeat-folder-pg2 p{
+
+    text-align: justify;
+}
+
 @media (max-width: 480px) {
     #h2-pg2 {
         font-size: 38px;
