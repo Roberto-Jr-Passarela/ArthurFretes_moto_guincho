@@ -39,12 +39,13 @@
     gap: 20px;
 }
 .manual-btn {
-    border: 2px solid white;
+    border: 2px solid rgb(255, 0, 0);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
+
 
 #radio1:checked ~ .first {
     margin-left: 0;
@@ -104,5 +105,68 @@
 @media (min-width: 480px){
     .manual-btn:hover {
         background-color: white;
+    }
+}
+@media (max-width: 700px){
+    .carrousel {
+        height: 360px;/*mudar*/
+        width: 512px;
+    }
+    .slides {
+        width: 400%;
+        height: 360px;
+    }
+    .slide img {
+        width: 512px;
+    }
+    .manual-navigation {
+        width: 512px;
+        margin-top: -30px;
+    }
+    .navigation-auto {
+        width: 512px;
+        margin-top: 330px;
+    }
+}
+@media (max-width: 550px){
+    .carrousel {
+        height: 270px;/*mudar*/
+        width: 384px;
+    }
+    .slides {
+        width: 400%;
+        height: 270px;
+    }
+    .slide img {
+        width: 384px;
+    }
+    .manual-navigation {
+        width: 384px;
+        margin-top: -30px;
+    }
+    .navigation-auto {
+        width: 384px;
+        margin-top: 240px;
+    }
+}
+@media (max-width: 550px){
+    .carrousel {
+        height: 180px;/*mudar*/
+        width: 256px;
+    }
+    .slides {
+        width: 400%;
+        height: 180px;
+    }
+    .slide img {
+        width: 256px;
+    }
+    .manual-navigation {
+        width: 256px;
+        margin-top: -30px;
+    }
+    .navigation-auto {
+        width: 256px;
+        margin-top: 150px;
     }
 }
