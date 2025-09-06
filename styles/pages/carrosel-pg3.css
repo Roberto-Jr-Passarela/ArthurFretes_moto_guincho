@@ -1,9 +1,95 @@
 @import url(../config.css);
 
 
-#div-posicion-imgs-pg3 {
-    height: 400px;
+.carrousel {
+    margin: 0px auto;
+    height: 450px;/*mudar*/
     width: 650px;
-    background-color: red;
-    border-radius: 50px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 3px solid #4065CF;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 650px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 650px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid #4065CF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navigation-auto {
+    position: absolute;
+    width: 650px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #4065CF;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #4065CF;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #4065CF;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #4065CF;
 }
